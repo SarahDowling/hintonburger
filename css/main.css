@@ -1,7 +1,10 @@
 html {
 	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+/* words are here */
