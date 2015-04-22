@@ -16,6 +16,10 @@ h5{
 	text-align: center;
 }
 
+.full-screen{
+	width: 100%;
+}
+
 .menu-clear{
 	clear:both;
 }
