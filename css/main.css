@@ -7,14 +7,49 @@ html {
 	box-sizing: inherit;
 }
 
+h3{
+	position: absolute;
+}
 
+h5{
+	clear: both;
+	text-align: center;
+}
+
+.menu-clear{
+	clear:both;
+}
+
+.food-wrapper{
+	position: relative;
+}
+
+.food-wrapper img{
+	width: 100%;
+}
 
 .menu-right{
 	float: right;
+	width: 50%;
 }
 
 .menu-left{
 	float: left;
+	width: 50%;
+}
+
+.img-right{
+	float: right;
+	width: 50%;
+}
+
+.img-left{
+	float: left;
+	width: 50%;
+}
+
+.contact{
+	text-align: center;
 }
 
 .social-media img{
