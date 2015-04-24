@@ -9,6 +9,7 @@ html {
 
 body{
 	margin: 0;
+	line-height: 1.5rem;
 }
 
 p{
@@ -30,9 +31,9 @@ h1{
 }
 
 h2{
-	padding: 0 1em;
-	font-size: 1.75rem;
-	color: ;
+	padding: 0.25em 1em 0 1em;
+	font-size: 1.5rem;
+	color: #841618;
 }
 
 h3{
@@ -46,7 +47,8 @@ h3{
 	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
 	background: rgba(51, 183, 146, 0.75); /* for transparency */
 	color: white;
-	font-size: 2rem;
+	font-size: 2rem; /* fall-back browser support */
+	font-size: 8vw;
 }
 
 h4{
@@ -77,6 +79,11 @@ li{
 	padding-top: 0.75em;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 .history h2{
 	color: #841618;
 }
@@ -87,19 +94,22 @@ li{
 	display: block;
 }
 
+.history{
+	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
+	background: rgba(51, 183, 146, 0.5); /* for transparency */
+}
+
+.history p{
+	padding-bottom: 1em;
+}
+
 .white-background{
 	background-color: white;
 	font-size: 1.5em;
-	padding-bottom: 1em;
 }
 
 .full-screen{
 	width: 100%;
-}
-
-.history{
-	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
-	background: rgba(51, 183, 146, 0.5); /* for transparency */
 }
 
 .menu-clear{
