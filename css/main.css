@@ -204,6 +204,10 @@ header img{
 	text-align: center;
 }
 
+.social-wrapper{
+	margin: 0 5.5em;
+}
+
 footer{
 	clear: left;
 	background-color: #33b792;
@@ -238,11 +242,8 @@ footer{
 }
 
 .ingredients img{
-	width:100%;
-}
-
-.ingredients{
-		text-align: center;
+	width:90%;
+	margin: 0 1em;
 }
 
 .blue-box{
@@ -286,5 +287,6 @@ footer{
 	position: relative;
 	overflow: hidden;
 }
+
 
 /* words are here */
