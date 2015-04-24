@@ -25,6 +25,7 @@ h1{
 	text-align: center;
 	color: white;
 	font-size: 2.8rem;
+	font-size: 15vw; /* not sure if works in all browsers, hence the extra font-size) */
 	margin:0;
 }
 
@@ -62,6 +63,7 @@ h5{
 
 header{
 	background-color: #33b792;
+	margin-bottom: 1em;
 }
 
 header p{
@@ -71,6 +73,14 @@ header p{
 li{
 	list-style: none;
 	padding-top: 0.75em;
+}
+
+.history h2{
+	color: ;
+}
+
+.white-background{
+	background-color: white;
 }
 
 .full-screen{
