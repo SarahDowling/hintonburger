@@ -3,11 +3,6 @@ html {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.v-generated-body {
-    min-width: 1000px;
-    overflow: auto;
-}
-
 *, *::before, *::after {
 	box-sizing: inherit;
 }
@@ -18,8 +13,8 @@ body{
 
 p{
 	margin:0;
-	padding-left: 1em;
-	padding-right:1em;
+	padding-left: 2em;
+	padding-right:2em;
 }
 
 h1{
@@ -35,7 +30,9 @@ h1{
 }
 
 h2{
-	padding: 0 0.65rem;
+	padding: 0 1em;
+	font-size: 2rem;
+	color: ;
 }
 
 h3{
@@ -92,7 +89,7 @@ li{
 
 .white-background{
 	background-color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-bottom: 1em;
 }
 
@@ -149,10 +146,14 @@ li{
 	position: relative;
 }
 
+.social-media{
+	padding: 1em;
+}
+
 .social-media img{
 	float: left;
-	width: 30%;
-	max-width: 200px;
+	width: 33.33%;
+	padding: 1em;
 }
 
 footer{
