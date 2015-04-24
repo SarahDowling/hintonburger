@@ -270,12 +270,13 @@ footer{
 }
 
 
-/* words are here */
+/* Toggle Nav Code Below */
 
 
 
 .nav-wrapper{
 	position: relative;
+	padding-bottom: 40px;
 }
 
 li{
