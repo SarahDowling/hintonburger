@@ -3,6 +3,11 @@ html {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.v-generated-body {
+    min-width: 1000px;
+    overflow: auto;
+}
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }
@@ -24,8 +29,8 @@ h1{
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
-	font-size: 2.8rem;
-	font-size: 15vw; /* not sure if works in all browsers, hence the extra font-size) */
+	font-size: 2.8rem; /* fall-back browser support */
+	font-size: 14.3vw;
 	margin:0;
 }
 
@@ -76,11 +81,19 @@ li{
 }
 
 .history h2{
-	color: ;
+	color: #841618;
+}
+
+.history img{
+	margin: 0 auto 0.75em auto;
+	width: 25.6%;
+	display: block;
 }
 
 .white-background{
 	background-color: white;
+	font-size: 2em;
+	padding-bottom: 1em;
 }
 
 .full-screen{
