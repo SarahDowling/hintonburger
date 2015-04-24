@@ -71,18 +71,48 @@ header{
 	margin-bottom: 1em;
 }
 
-header p{
-	display: inline-block;
-}
+
 
 li{
 	list-style: none;
-	padding-top: 0.75em;
+	line-height: 2.25em;
 }
 
 a{
 	text-decoration: none;
 	color: white;
+	display: block;
+	width: 100%;
+	padding-left: 1em;
+}
+
+nav{
+	clear: both;
+}
+
+nav a:hover{
+	background-color: #9adac9;
+	display: block;
+	width: 100%;
+}
+
+ol{
+	padding:0;
+	margin: 0;
+}
+
+header p{
+	color: white;
+	font-size: 2.2em; /* fall-back browser support */
+	font-size: 6.5vw;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+}
+
+header img{
+	float: left;
+	width: 25%;
+	padding: 0.85em 0 1em 1em;
 }
 
 .history h2{
@@ -107,6 +137,8 @@ a{
 .white-background{
 	background-color: white;
 	font-size: 1.5em;
+	padding:  0 1em;
+	line-height: 1.25em
 }
 
 .full-screen{
