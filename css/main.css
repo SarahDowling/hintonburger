@@ -310,7 +310,7 @@ nav a{
 	display: inline-block;
 	position: absolute;
 	right: 0;
-	bottom: 1em;
+	bottom: 0;
 	top: 1em;
 	background-image: url("../img/toggle-buttons.svg");
 	background-size: 60px auto;
