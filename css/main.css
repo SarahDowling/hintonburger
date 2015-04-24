@@ -59,7 +59,8 @@ header{
 
 li{
 	list-style: none;
-	line-height: 2.25em;
+	line-height: 2.5em;
+	font-size: 1.5rem
 }
 
 nav a{
