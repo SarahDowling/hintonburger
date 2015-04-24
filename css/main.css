@@ -37,28 +37,10 @@ h2{
 	color: #841618;
 }
 
-h3{
-	position: absolute;
-	top: 0;
-	left: 0.8rem;
-	margin: 0;
-	margin-right: 0.8rem;
-	padding: 0.25em;
-	width: 83.2%;
-	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
-	background: rgba(51, 183, 146, 0.75); /* for transparency */
-	color: white;
-	font-size: 2rem; /* fall-back browser support */
-	font-size: 8vw;
-}
-
 h4{
 	font-size: 1.25rem;
 	margin: 0;
 	padding: 0.7em 0 0.7em 0.9em;
-	background: rgb(51,
-	 183, 146); /* fall-back support for browsers that don't support rgba */
-	background: rgba(51, 183, 146, 0.75); /* for transparency */
 }
 
 h5{
@@ -70,8 +52,6 @@ header{
 	background-color: #33b792;
 	margin-bottom: 1em;
 }
-
-
 
 li{
 	list-style: none;
@@ -115,6 +95,13 @@ header img{
 	padding: 0.85em 0 1em 1em;
 }
 
+.bottom-logo{
+	float: left;
+	width: 25%;
+	padding: 0.85em 0 0em 1em;
+	}
+
+
 .history h2{
 	color: #841618;
 }
@@ -152,26 +139,31 @@ header img{
 .food-wrapper{
 	position: relative;
 	margin-bottom: 1em;
-	padding: 0 0.8rem 0.8rem;
+	padding: 0 1em 1rem;
 }
 
 .food-wrapper img{
 	width: 100%;
+	position: relative;
+	z-index: -8;
 }
 
 .menu-right{
 	float: right;
 	width: 50%;
+	position: relative;
 }
 
 .menu-left{
 	float: left;
 	width: 50%;
+	position: relative;
 }
 
 .img-right{
 	float: right;
 	width: 50%;
+	position: relative;
 }
 
 .img-left{
@@ -179,12 +171,16 @@ header img{
 	width: 50%;
 }
 
-.contact{
+.food-wrapper h3{
+	z-index: 3;
+}
+
+.operation{
 	text-align: center;
 }
 
-.location{
-
+.operation h2{
+	margin: 0;
 }
 
 .social-media{
@@ -195,6 +191,7 @@ header img{
 	float: left;
 	width: 33.33%;
 	padding: 1em;
+	max-width: 150px;
 }
 
 footer{
@@ -204,10 +201,10 @@ footer{
 
 .location-words{
 	position: absolute;
-	left: 50%;
+	left: 10%;
+	right: 10%;
 	top: 10%;
 	text-align: center;
-
 }
 
 .contact-us{
@@ -225,8 +222,37 @@ footer{
 	display: block;
 }
 
-.contact-us a:hover{
-	color: black;
+.ingredients img{
+	width:100%;
+}
+
+.ingredients{
+		text-align: center;
+}
+.blue-box{
+	position: absolute;
+	width: 193%;
+	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
+	background: rgba(51, 183, 146, 0.75); /* for transparency */
+	z-index: -1;
+	overflow: hidden;
+	padding: 2em 0;
+	left: 1em;
+	top:0;
+}
+
+
+h3{
+	position: absolute;
+	top: 0;
+	left: 0.8rem;
+	margin: 0;
+	margin-right: 0.8rem;
+	padding: 0.25em;
+	color: white;
+	font-size: 2rem; /* fall-back browser support */
+	font-size: 8vw;
+	z-index: 4;
 }
 
 /* words are here */
