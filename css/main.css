@@ -57,30 +57,6 @@ header{
 	margin-bottom: 1em;
 }
 
-li{
-	list-style: none;
-	line-height: 2.5em;
-	font-size: 1.5rem
-}
-
-nav a{
-	text-decoration: none;
-	color: white;
-	display: block;
-	width: 100%;
-	padding-left: 1em;
-}
-
-nav{
-	clear: both;
-}
-
-nav a:hover{
-	background-color: #9adac9;
-	display: block;
-	width: 100%;
-}
-
 ol{
 	padding:0;
 	margin: 0;
@@ -94,7 +70,7 @@ header p{
 	text-align: center;
 }
 
-header img{
+.top-logo{
 	float: left;
 	width: 25%;
 	padding: 0.85em 0 1em 1em;
@@ -202,6 +178,7 @@ header img{
 .social-media h2{
 	margin: 0;
 	text-align: center;
+	padding-bottom: 0.25em;
 }
 
 .social-wrapper{
@@ -211,6 +188,10 @@ header img{
 footer{
 	clear: left;
 	background-color: #33b792;
+}
+
+footer a:hover{
+	background-color: #9adac9;
 }
 
 .location-words{
@@ -290,3 +271,84 @@ footer{
 
 
 /* words are here */
+
+
+
+.nav-wrapper{
+	position: relative;
+	padding-bottom: 40px;
+}
+
+li{
+	list-style: none;
+	line-height: 2.5em;
+	font-size: 1.5rem
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	padding-left: 1em;
+}
+
+.nav{
+	display: none;
+}
+
+.nav-check{
+	position: absolute;
+	top: -50em;
+}
+
+.nav-label{
+	cursor: pointer;
+	font-size: 1.25rem;
+	width: 40px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.nav-check:checked ~ .nav-label{
+	background-color: #9adac9;
+}
+
+nav a:hover{
+	background-color: #9adac9;
+	display: block;
+	width: 100%;
+}
+
+.nav-check:checked ~ .nav{
+	display: block;
+}
+
+.nav-close{
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open{
+	display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close{
+	display: block;
+}
+
+.nav-open,
+.nav-closed{
+	display:block;
+	width: 100%;
+}
+
+.nav{
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 15em;
+	text-align: left;
+	background-color: #33b792;
+}
