@@ -40,12 +40,16 @@ h2{
 h4{
 	font-size: 1.25rem;
 	margin: 0;
-	padding: 0.7em 0 0.7em 0.9em;
+	padding: 0.4em 0 0 0.9em;
 }
 
 h5{
 	clear: both;
 	text-align: center;
+	color: #841618;
+	font-size: 1.5rem;
+	padding-top: 0.75em;
+	margin: 0;
 }
 
 header{
@@ -97,8 +101,8 @@ header img{
 
 .bottom-logo{
 	float: left;
-	width: 25%;
-	padding: 0.85em 0 0em 1em;
+	width: 13%;
+	padding: 0.55em 0 0em 1em;
 	}
 
 
@@ -139,7 +143,7 @@ header img{
 .food-wrapper{
 	position: relative;
 	margin-bottom: 1em;
-	padding: 0 1em 1rem;
+	padding: 0 1em 1rem 1em;
 }
 
 .food-wrapper img{
@@ -177,21 +181,23 @@ header img{
 
 .operation{
 	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 .operation h2{
 	margin: 0;
 }
 
-.social-media{
-	padding: 1em;
-}
-
 .social-media img{
 	float: left;
 	width: 33.33%;
-	padding: 1em;
+	padding: 0.25em 1em 1em 1em;
 	max-width: 150px;
+}
+
+.social-media h2{
+	margin: 0;
 }
 
 footer{
@@ -203,8 +209,12 @@ footer{
 	position: absolute;
 	left: 10%;
 	right: 10%;
-	top: 10%;
+	top: 0%;
 	text-align: center;
+}
+
+.location-words h2{
+	margin-bottom: 0;
 }
 
 .contact-us{
@@ -214,7 +224,8 @@ footer{
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center center;
-	padding: 4em;
+	padding: 3.3em;
+	margin: 1em 0;
 }
 
 .contact-us a{
@@ -231,12 +242,13 @@ footer{
 }
 .blue-box{
 	position: absolute;
-	width: 193%;
+	width: 100%;
 	background: rgb(51, 183, 146); /* fall-back support for browsers that don't support rgba */
 	background: rgba(51, 183, 146, 0.75); /* for transparency */
 	z-index: -1;
 	overflow: hidden;
-	padding: 2em 0;
+	padding: 2rem 0; /* fall-back browser support */
+	padding: 4.8vw 0;
 	left: 1em;
 	top:0;
 }
@@ -253,6 +265,16 @@ h3{
 	font-size: 2rem; /* fall-back browser support */
 	font-size: 8vw;
 	z-index: 4;
+}
+
+.whole-menu p{
+	padding-top: 1em;
+	padding-left: 1em;
+	line-height: 1.05em;
+}
+
+.location-words p{
+	color: black;
 }
 
 /* words are here */
