@@ -78,7 +78,7 @@ li{
 	line-height: 2.25em;
 }
 
-a{
+nav a{
 	text-decoration: none;
 	color: white;
 	display: block;
@@ -184,9 +184,7 @@ header img{
 }
 
 .location{
-	background-image: url("../img/google-maps.jpg");
-	width: 100%;
-	position: relative;
+
 }
 
 .social-media{
@@ -204,30 +202,31 @@ footer{
 	background-color: #33b792;
 }
 
-.location h2{
+.location-words{
 	position: absolute;
-	top: 5%;
-	left: 35.9%;
+	left: 50%;
+	top: 10%;
+	text-align: center;
+
 }
 
-.location p{
-	position: absolute;
-	top: 56%;
-	left: 26%;
+.contact-us{
+	overflow: hidden;
+	background-image: url("../img/google-maps.jpg");
+	background-size: 100% auto;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 4em;
 }
 
-.location img{
+.contact-us a{
 	width: 100%;
-	opacity: 0.5;
-	margin-bottom: -0.2em;
+	display: block;
 }
 
-.location::before{
-	background-color: #33b792;
-	content: '';
-	height: 100%;
-	width: 100%;
-	position: absolute;
+.contact-us a:hover{
+	color: black;
 }
 
 /* words are here */
